@@ -1,5 +1,5 @@
 def my_collect(arg)
   counter = 0
   new_array = []
-  while counter < arg.size
+  while counter < arg.
     
