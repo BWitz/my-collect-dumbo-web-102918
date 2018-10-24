@@ -2,5 +2,5 @@ def my_collect(arg)
   counter = 0
   new_array = []
   while counter < arg.size
-    new_array << yield()
-    
+    new_array << yield(arg[counter])
+      
